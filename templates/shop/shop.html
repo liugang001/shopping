@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>店铺详情</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="wap-font-scale" content="no">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="format-detection" content="telephone=no,email=no,address=no,date=no" />
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/public.css">
+    <link rel="stylesheet" href="../../css/pages.css">
+</head>
+<body>
+   <!--商家店铺  店铺详情-->
+    <section class="header_info clearfix eq_color">
+        <!--图片logo-->
+        <div class="logo_pic  fl">
+            <img src="../../images/nike.png" alt="nikes" class="eq_resize">
+        </div>
+        <!--关注-->
+        <div class="follow fl">
+            <div class="clearfix">
+                <h4 class="fl">NIKE运动专营店</h4>
+                <span class="fl"></span>
+            </div>
+            <p>川大附近</p>
+            <em class="tableBox">认证</em>
+        </div>
+    </section>
+
+    <!--main pic-->
+    <section class="main_pic">
+        <img src="../../images/5.png" alt="444" class="eq_resize">
+    </section>
+
+    <!--导航区块-->
+    <section class="nav_mode eq_color">
+        <!--列表展示  关注人数  已经折扣  折扣-->
+        <ul class="flex">
+            <li class="txt_center">
+                <h4>4214</h4>
+                <p>关注人数</p>
+            </li>
+            <li class="txt_center">
+                <h4>6000元</h4>
+                <p>已经折扣</p>
+            </li>
+            <li class="txt_center">
+                <h4>8.8折起</h4>
+                <p>折扣</p>
+            </li>
+        </ul>
+        <div class="txt_center link_area">
+            <a href="javascript:;" class="txt_block nav_link over_hide"><em class="tableBox eq_inherit">导航带我去</em></a>
+            <a href="javascript:;" class="txt_block contact_us over_hide"><em class="tableBox eq_inherit">联系我们</em></a>
+        </div>
+    </section>
+
+    <!--选项区域  简介  商品-->
+    <section id="tabs_area" class="eq_color">
+        <ol class="tab_list clearfix">
+            <li class="txt_center  fl  active">简介</li>
+            <li class="txt_center  fl">商品</li>
+        </ol>
+        <!--简介-->
+        <div class="card_list">
+            <h3 class="shops">商店简介</h3>
+            <div class="list_show">
+                <p>NIKE公司总部位于美国俄勒冈州波特兰市。
+                    公司生产的体育用品包罗万象，例如服装，鞋类，运动器材等。
+                    NIKE是全球著名的体育运动品牌，英文原意指希腊胜利女神，中文译为耐克。
+                </p>
+                <img src="../../images/nike02.png" alt="img" class="block">
+            </div>
+            <div class="list_show">
+                <p>
+                    耐克商标图案是个小钩子。耐克一直将激励全世界的每一位运动员并为其献上最好的产品视为光荣的任务。
+                    耐克首创的气垫技术给体育界带来了一场革命。运用这项技术制造出的运动鞋可以很好地保护运动员的膝盖.
+                    在其在作剧烈运动落地时减小对膝盖的影响。
+                </p>
+                <img src="../../images/7.png" alt="img" class="block">
+            </div>
+        </div>
+        <!--商品-->
+        <div class="card_list hide">
+            <h3 class="product">LEBRON XV EP</h3>
+            <div class="list_show">
+                <p>LeBron XV EP 男子篮球鞋搭载新版 Flyknit 设计与强大的缓震系统组合，能够满足勒布朗这类爆发性球员的需求。</p>
+                <img src="../../images/nike03.png" alt="nike03">
+            </div>
+            <div class="list_show">
+                <p>新颖的 BattleKnit 是专为勒布朗匠心设计的一种 Flyknit 材质，实现弹性支撑、轻盈灵活性与锁定贴合感的多重优势。</p>
+                <img src="../../images/7.png" alt="nike03">
+            </div>
+        </div>
+    </section>
+
+    <!--底部固定-->
+    <section style="height:1.5rem;"></section>
+    <!--领取会员卡 -->
+    <section class="fixed_bot get_card hide">
+        <a href="javascript:;" class="txt_block txt_center" id="get_member_code">领取会员卡</a>
+    </section>
+    <!--已经是会员  使用会员卡-->
+    <section class="fixed_bot treat flex">
+        <div class="pad_left">
+            <h3>今日还可以使用 3 次</h3>
+            <p>店铺支持会员 9折 起</p>
+        </div>
+        <p><a href="javascript:;" class="tableBox use_treat">使用优惠</a></p>
+    </section>
+
+    <!--会员的使用次数-->
+    <section class="model eq_resize hide" id="member_nums">
+        <div class="wrapBox pCenter">
+            <p class="member_card"><a href="javascript:;" class="tableBox">会员卡一次</a></p>
+            <p class="student_card"><a href="javascript:;" class="tableBox">学生卡一次</a></p>
+        </div>
+    </section>
+    <!--会员卡  今日已经使用-->
+   <section class="model eq_resize hide">
+       <div class="wrapBox pCenter">
+           <p class="member_card gray_status"><a href="javascript:;" class="tableBox">会员卡(今日已使用)</a></p>
+           <p class="student_card gray_status"><a href="javascript:;" class="tableBox">学生卡(今日已使用)</a></p>
+       </div>
+   </section>
+
+
+
+
+
+
+
+
+</body>
+</html>
+<script type="text/javascript"  src="../../plugin/phoneSize/phoneSize.js"></script>
+<script type="text/javascript"  src="../../js/jquery-2.2.4.min.js"></script>
+<script>
+    $(".use_treat").on("touchstart",function(){
+        $("#member_nums").removeClass("hide");
+    });
+
+    $(".wrapBox").on("touchstart",function(ev){
+        ev.preventDefault();
+        ev.stopPropagation();
+    });
+
+    $(".model").on("touchstart",function(){
+        $(this).addClass("hide");
+    })
+
+
+</script>
