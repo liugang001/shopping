@@ -35,6 +35,8 @@ background:url(../images/search_jing.png) no-repeat center/0.48rem 0.48rem;}
 .mode_list li .pic{height:2.2rem;overflow: hidden;}
 .mode_list .discount img{width:0.4rem;height:0.4rem;margin-right:0.02rem;}
 .mode_list .discount em{font-size:0.32rem;color:#A86A24;min-width:0.9rem;height:0.4rem;border:1px solid #A86A24;border-radius:0.2rem;}
+.find_all_btn{width:3.36rem;height:0.9rem;margin:0 auto;background:#000;border-radius:0.1rem;overflow:hidden;}
+.find_all_btn>a{width:3.36rem;height:0.9rem;color:#fff;font-size:0.42rem;}
 /*fixed 空间间隙*/
 .bot_gap{height:1.45rem;}
 
@@ -123,7 +125,7 @@ background:url(../images/member_enjoy.png) no-repeat center/cover;}
 
 
 /*店铺详情----------------*/
-.eq_color{background:#fff;}
+.header_eq_color{background:#fff;}
 .header_info{padding:0.38rem 0.28rem;}
 .header_info .logo_pic{width:2.8rem;height:1.6rem;margin-right:0.3rem;}
 .header_info span{width:1.6rem;height:0.6rem;background:url(../images/no_focus.png) no-repeat center/cover;}

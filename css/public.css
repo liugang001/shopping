@@ -83,13 +83,13 @@ background:#0E0E0E url(../images/count_img.png) no-repeat 0.9rem center/0.64rem 
         transform: rotate(0deg);
     }
     25%{
-        transform: rotate(-5deg);
+        transform: rotate(-2deg);
     }
     50%{
         transform:rotate(0deg);
     }
     75%{
-        transform: rotate(5deg);
+        transform: rotate(2deg);
     }
     100%{
         transform: rotate(0deg);
@@ -97,6 +97,10 @@ background:#0E0E0E url(../images/count_img.png) no-repeat 0.9rem center/0.64rem 
 
 }
 
+/*加载动画*/
+.loading_animate{position:fixed;top:0;z-index:200;background:#fff;}
+.loading_animate .box{width:3.2rem;height:1.8rem;}
+.loading_animate p{color:#666;font-size:0.36rem;padding:0.2rem 0;}
 
 
 
